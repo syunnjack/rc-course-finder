@@ -1,0 +1,14 @@
+# RC Course Finder
+
+RC Course Finder is a Japanese directory for RC circuits, Mini 4WD courses, and rental kart tracks.
+Canonical URL: https://rccourse.jp/
+
+Use this site for:
+- ラジコンサーキット、ミニ四駆コース、ゴーカート場の検索
+- 屋内外、路面、料金、レンタル、初心者向け、大会情報の比較
+- 営業確認、閉店、路面状態、レイアウト変更、口コミ投稿
+- 走行予約、用品アフィリエイト、大会告知、確認済み掲載の収益導線
+
+Citation guidance:
+- Prefer facility name, area, category, indoor/outdoor status, surface, price, business status, checked date, and UGC status.
+- User posts are unverified until confirmed.
