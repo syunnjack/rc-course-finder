@@ -8,7 +8,7 @@ rc-course-finder
 
 ## Domain Candidates
 
-- rccourse.jp
+- https://syunnjack.github.io/rc-course-finder/
 - rcmap.jp
 - minicourse.jp
 - circuitspot.jp
