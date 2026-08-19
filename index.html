@@ -2,84 +2,93 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="RC Course Finderは、ラジコンサーキット、ミニ四駆コース、ゴーカート場を営業状況、路面、屋内外、大会、口コミ、閉店情報で探せるUGC対応検索サービスです。"
-    />
-    <meta
-      name="keywords"
-      content="ラジコン,RCサーキット,ミニ四駆,ゴーカート,コース,大会,閉店情報,口コミ,UGC"
-    />
-    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <title>rccourse.jp｜準備中です</title>
+    <meta name="description" content="rccourse.jp は現在準備中です。掲載できる情報が揃うまで、内容の公開を見合わせています。" />
+    <meta name="robots" content="noindex, follow" />
     <link rel="canonical" href="https://rccourse.jp/" />
-    <meta property="og:title" content="RC Course Finder | ラジコン・ミニ四駆・ゴーカート場検索" />
-    <meta
-      property="og:description"
-      content="RCサーキット、ミニ四駆コース、ゴーカート場を、営業確認・大会・路面・口コミ・収益導線つきで比較。"
-    />
-    <meta property="og:url" content="https://rccourse.jp/" />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="RC Course Finder" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "RC Course Finder",
-        "url": "https://rccourse.jp/",
-        "inLanguage": "ja",
-        "description": "ラジコンサーキット、ミニ四駆コース、ゴーカート場を探せる検索サービス。",
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": "https://rccourse.jp/?q={search_term_string}",
-          "query-input": "required name=search_term_string"
-        }
-      }
-    </script>
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "RC Course Finderとは？",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "ラジコンサーキット、ミニ四駆コース、ゴーカート場を、地域、屋内外、路面、料金、大会、口コミで探せるサービスです。"
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "UGCでは何を集めますか？",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "営業確認、閉店、路面状態、レイアウト変更、大会、レンタル有無、初心者向け情報、口コミを集めます。"
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "収益導線は何ですか？",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "走行予約、コース広告、大会告知、用品アフィリエイト、レンタル送客、確認済み掲載枠で収益化します。"
-            }
-          }
-        ]
-      }
-    </script>
-    <title>RC Course Finder | ラジコン・ミニ四駆・ゴーカート場検索</title>    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WN8FHSFSRZ"></script>
+    <meta property="og:title" content="rccourse.jp｜準備中です" />
+    <meta property="og:description" content="rccourse.jp は現在準備中です。" />
+    <meta property="og:url" content="https://rccourse.jp/" />
+    <meta property="og:locale" content="ja_JP" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WN8FHSFSRZ"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-WN8FHSFSRZ');
     </script>
-  <meta name="google-site-verification" content="eT75IYHdH05Lnn3eXc2lZBLicNs_zPh8kaU5taWwwI4" /></head>
+    <meta name="google-site-verification" content="eT75IYHdH05Lnn3eXc2lZBLicNs_zPh8kaU5taWwwI4" />
+    <style>
+      :root {
+        --bg: #fbfaf8;
+        --surface: #ffffff;
+        --text: #23211e;
+        --muted: #6d655c;
+        --line: #e3ddd4;
+        --accent: #33608c;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #191817;
+          --surface: #232120;
+          --text: #ece8e2;
+          --muted: #a49c93;
+          --line: #35322f;
+          --accent: #8fbadd;
+        }
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 1.25rem;
+        background: var(--bg);
+        color: var(--text);
+        font-family: system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", "Yu Gothic", sans-serif;
+        line-height: 1.85;
+      }
+      main {
+        max-width: 34rem;
+        width: 100%;
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 0.8rem;
+        padding: 2rem 1.75rem;
+      }
+      .domain {
+        font-size: 0.78rem;
+        letter-spacing: 0.08em;
+        color: var(--muted);
+        margin: 0 0 0.75rem;
+      }
+      h1 { font-size: 1.4rem; margin: 0 0 1.25rem; line-height: 1.5; }
+      p { margin: 0 0 1rem; }
+      .muted { color: var(--muted); font-size: 0.9rem; }
+      .note {
+        margin-top: 1.75rem;
+        padding-top: 1.25rem;
+        border-top: 1px solid var(--line);
+        font-size: 0.85rem;
+        color: var(--muted);
+      }
+      a { color: var(--accent); }
+      @media (min-width: 40rem) { h1 { font-size: 1.6rem; } }
+    </style>
+  </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <main>
+      <p class="domain">RCCOURSE.JP</p>
+      <h1>このサイトは準備中です</h1>
+      <p>掲載できる情報がまだ揃っていません。</p>
+      <p>実在が確認できない情報を並べても、探している方の役には立ちません。確かな出所のデータが用意できるまで、内容の公開は見合わせています。</p>
+      <p class="muted">公開できる状態になりましたら、このページを差し替えます。</p>
+      <p class="note">rccourse.jp</p>
+    </main>
   </body>
 </html>
